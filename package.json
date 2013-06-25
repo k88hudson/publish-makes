@@ -1,21 +1,23 @@
 {
   "name": "publish-makes",
-  "version": "0.0.1",
-  "description": "Publishing express middleware for makeAPI and vanity URLs",
-  "keywords": [
-    "mozilla",
-    "express",
-    "makeapi"
-  ],
-  "author": "Kate Hudson <k88hudson@gmail.com>",
-  "license": "BSD",
+  "version": "0.0.0",
+  "description": "Middleware for publishing your makes to the makeapi",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/k88hudson/publish-makes.git"
-  },
-  "devDependencies": {
+  "dependencies": {
     "express": "~2.5.11",
     "makeapi": "~0.2.0"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/k88hudson/publish-makes.git"
+  },
+  "keywords": [
+    "makeapi"
+  ],
+  "author": "Kate Hudson (@k88hudson)",
+  "license": "BSD"
 }
