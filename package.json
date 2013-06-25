@@ -1,6 +1,6 @@
 {
   "name": "publish-makes",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Middleware for publishing your makes to the makeapi",
   "main": "index.js",
   "dependencies": {
